@@ -1,0 +1,8 @@
+production:
+  server: "https://analitics-private-pub.herokuapp.com/faye"
+
+#this is the address of this heroku app once you’ve deployed it, plus the `/faye` extension.
+
+  secret_token: "0d1b6ee57b21dc98cdb61aea8134f4af909c6a6fcbd6a0361558cb6f33bf5937"
+
+  signature_expiration: 3600 # one day
